@@ -1,15 +1,16 @@
 {
   "domain": "hon",
-  "name": "Haier hOn",
+  "name": "hOn 🗿",
   "codeowners": [
-    "@Andre0512"
+    "@Andre0512",
+    "@Bitte-ein-Git"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/Andre0512/hon/",
+  "documentation": "https://github.com/Bitte-ein-Git/hon/",
   "iot_class": "cloud_push",
-  "issue_tracker": "https://github.com/Andre0512/hon/issues",
+  "issue_tracker": "https://github.com/Bitte-ein-Git/ha_hon/issues",
   "requirements": [
     "pyhOn==0.17.5"
   ],
-  "version": "0.14.0"
+  "version": "0.14.1"
 }
