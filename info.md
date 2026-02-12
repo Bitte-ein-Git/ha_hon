@@ -5,6 +5,8 @@
 
 </br></br>
 
+{% if not installed %}
+
 <div id="toc">
   <ul align="center" style="list-style: none">
     <summary>
@@ -35,6 +37,10 @@
 
 <hr>
 
+{% endif %}
+
+{% if installed and not configured %}
+
 ## Configuration
 
 > [!CAUTION]
@@ -49,6 +55,8 @@
    - At the bottom right select "**+ Add integration**"
 
 2. Select "**hOn 🗿**".
+
+{% endif %}
 
 <hr>
 

@@ -1,10 +1,7 @@
-name: Python check
+name: Python check [manual trigger]
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
   build:
